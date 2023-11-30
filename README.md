@@ -21,18 +21,14 @@ Getting Started
 
 
 ```
-
 npm install -g gulp-to-webpack
-
 ```
 
 ### Usage
 
 
 ```
-
-gulp-to-webpack --input <path-to-gulpfile> --output <output-directory>
-
+g2w --input <path-to-gulpfile> --output <output-directory>
 ```
 
 *   `<path-to-gulpfile>`: Path to your existing Gulpfile.
@@ -43,9 +39,7 @@ Example
 
 
 ```
-
-gulp-to-webpack --input path/to/your/gulpfile.js --output path/to/output
-
+g2w --input path/to/your/gulpfile.js --output path/to/output
 ```
 
 Contributing
